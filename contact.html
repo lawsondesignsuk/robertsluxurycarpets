@@ -59,16 +59,16 @@
 <div class="overlay" id="overlay" aria-hidden="true"></div>
 
 <main>
-  <section class="hero-contact">
-    <div class="overlay"></div>
-    <div class="hero-contact-content">
-      <h1>Free <span class="orange">Flooring Quote</span> in 60 Seconds</h1>
-      <p class="subtitle">Local, professional flooring across Neath & South Wales.</p>
-      <br>
+<section class="hero-contact">
+  <div class="overlay"></div>
+  <div class="hero-contact-content">
+    <h1>Free <span class="orange">Flooring Quote</span> in 60 Seconds</h1>
+    <p class="subtitle">Local, professional flooring across Neath & South Wales.</p>
+    <br>
     <form action="https://formspree.io/f/mgvzzrqq" method="POST" class="contact-form" aria-label="Contact Form">
-      <input type="text" placeholder="Your Name (optional)" />
-      <input type="tel" placeholder="Phone Number*" required />
-      <select required>
+      <input type="text" name="name" placeholder="Your Name (optional)" />
+      <input type="tel" name="phone" placeholder="Phone Number*" required />
+      <select name="service" required>
         <option value="">Choose Service*</option>
         <option value="carpet">Carpet Fitting</option>
         <option value="vinyl">Lino / Vinyl Flooring</option>
@@ -76,8 +76,8 @@
       </select>
       <button type="submit">Get it now</button>
     </form>
-    </div>
-  </section>
+  </div>
+</section>
 
   <section class="contact-section">
     <div class="contact-cards-container">
